@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Home Section */
+
+#Home{
+    margin-top: 2%;
+}
+
+
+#left-side{
+    height: 90vh;
+    background-size: cover;
+    background-position: center center;
+    border-bottom-left-radius: 150px;
+}
+#right-side #Welcome{
+    color: #ef0456;
+
+}
+#signup-btn{
+background-color: #ef0456;
+color: white;
+width: 25%;
+height: 7%;
+border: none;
+border-radius: 25px;
+}
+
+#signup-btn:hover{
+    background-color: #b10a44;
+ 
+}
+#signup-btn:active{
+    background-color: #b10a44;
+    transform: scale(0.92);
+ 
+}
+.form-control{
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1.5px solid #ef0456;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+     box-shadow: 0 0 0 0;
+}
+
+#login-link{
+    color: #ef0456;
+    text-decoration: none;
+}
+/* End of Home section */
